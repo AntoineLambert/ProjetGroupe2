@@ -8,5 +8,6 @@
 <body>
 	<p> service Informatique</p>
 	<a href="index.php?dec=close">deconnexion</a>
+	<?php include("select.php"); ?>
 </body>
 </html>
