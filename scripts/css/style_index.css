@@ -236,9 +236,8 @@ img {
 .scrollToTop:hover {
     text-decoration:none;
     justify-content: space-between;
-    flex-direction: column;
 }
-#img {
+#top {
     -moz-transition-duration:1.8s;
     -moz-transition-timing-function:ease;
     -webkit-transition-duration:1.8s;
@@ -250,7 +249,7 @@ img {
     opacity: 0.8;
     width: auto;
 }
-#img:hover {
+#top:hover {
     -moz-transform:rotate(720deg);
     -webkit-transform:rotate(720deg);
     transform:rotate(720deg);
