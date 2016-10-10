@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "cros_regular";
+    src: url('cros_regular.ttf');
+}
+
 * {
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
@@ -44,6 +49,14 @@ img {
 	border-style: solid;
 	border-radius: 0.3em;
 }
+.container_equipe{
+  padding: 0.2em;
+	margin: 0.5em;
+	padding-right: 1em;
+	padding-left: 1em;
+	border-style: solid;
+  font-family: "cros_regular" !important;
+	border-radius: 0.3em;}
 .text_center {
     color: #333330;
     font-size: 1.2em;
@@ -55,7 +68,11 @@ img {
     transition: 0.3s;
     cursor: zoom-in;
 }
-
+#myImg {
+    border-radius: 5px;
+    transition: 0.3s;
+    cursor: zoom-in;
+}
 #myImg:hover {
     opacity: 0.8;
 }
@@ -95,7 +112,7 @@ img {
 }
 
 /* Add Animation - Zoom in the Modal */
-.modal-content, #caption { 
+.modal-content, #caption {
     -webkit-animation-name: zoom;
     -webkit-animation-duration: 0.6s;
     animation-name: zoom;
@@ -103,12 +120,12 @@ img {
 }
 
 @-webkit-keyframes zoom {
-    from {-webkit-transform:scale(0)} 
+    from {-webkit-transform:scale(0)}
     to {-webkit-transform:scale(1)}
 }
 
 @keyframes zoom {
-    from {transform:scale(0)} 
+    from {transform:scale(0)}
     to {transform:scale(1)}
 }
 
@@ -149,8 +166,8 @@ img {
     background-color: #CCCCC0;
     box-shadow: 0px 0px 8em #CCCCC0;
 }
-#sses2 ul 
-{ 
+#sses2 ul
+{
     position: relative;
     list-style-type: none;
     float:left;
@@ -193,6 +210,7 @@ img {
 }
 
 .head {
+
     padding: 0.2em;
     margin: 0.5em;
     padding-right: 1em;
@@ -200,12 +218,21 @@ img {
     border-style: solid;
     border-radius: 0.3em;
     font-size: 1.5em;
-    text-align: center;
+
 }
 .gold {
     display: inline-block;
-    border-radius: 5em;
+    border-radius: 10em;
     width: 40%;
+    float: left;
+}
+.equipe {
+    box-shadow: 3px 3px 30px #555;
+    display: inline-block;
+    border-radius: 25em;
+    margin: 1em;
+    width: 30%;
+    height: 30%;
     float: left;
 }
 .gold_text {
@@ -216,11 +243,47 @@ img {
     vertical-align: middle;
     font-size: 1.2em;
 }
+h2{
+  text-align: middle;
+  margin-left: 5.5em;
+  margin-right: 3.74em;
+  font-family: "cros_regular";
+  font-size: 1.5em;
+}
+h3{
+  text-align: justify;
+  margin-left: 5em;
+  font-size: 1em;
+}
+.equipe_text {
+    display: inline-block;
+    text-align: left;
+    float: right;
+    font-family: "cros_regular";
+    margin-left: 1em;
+    width: 55%;
+    vertical-align: middle;
+    font-size: 1.2em;
+}
+.equipe_textc {
+    display: inline-block;
+    text-align: center;
+    font-family: "cros_regular";
+    vertical-align: middle;
+    font-size: 1.2em;
+}
 .logo {
     display: inline-block;
-    border-radius: 0.8em;
+    border-radius: 0.2em;
     width: 20%;
     float: left;
+}
+.logoindex {
+    display: inline-block;
+    border-radius: 0.2em;
+    width: 20%;
+    float: left;
+    margin: 1em;
 }
 .scrollToTop {
     position: fixed;
