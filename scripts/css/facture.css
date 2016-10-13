@@ -1,0 +1,55 @@
+body {
+    font-family: Verdana;
+}
+
+div.invoice {
+border:1px solid #ccc;
+padding:10px;
+height:740pt;
+width:570pt;
+}
+
+div.company-address {
+    border:1px solid #ccc;
+    float:left;
+    width:200pt;
+}
+
+div.invoice-details {
+    border:1px solid #ccc;
+    float:right;
+    width:200pt;
+}
+
+div.customer-address {
+    border:1px solid #ccc;
+    float:right;
+    margin-bottom:50px;
+    margin-top:100px;
+    width:200pt;
+}
+
+div.clear-fix {
+    clear:both;
+    float:none;
+}
+
+table {
+    width:100%;
+}
+
+th {
+    text-align: left;
+}
+
+.text-left {
+    text-align:left;
+}
+
+.text-center {
+    text-align:center;
+}
+
+.text-right {
+    text-align:right;
+}

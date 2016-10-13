@@ -34,7 +34,9 @@ else{
    '".mysql_real_escape_string(stripcslashes(utf8_decode($_POST['login'])))."',
    '".mysql_real_escape_string(stripcslashes(utf8_decode($_POST['tel'])))."',
    '".mysql_real_escape_string(stripcslashes($_POST['email']))."',
-   '".mysql_real_escape_string(stripcslashes(utf8_decode($_POST['password'])))."')");
+   '".mysql_real_escape_string(stripcslashes(utf8_decode($_POST['password'])))."',
+   '".mysql_real_escape_string(stripcslashes('0'))."',
+   '".mysql_real_escape_string(stripcslashes('0'))."')");
 
   //Si il y a une erreur
   if (!$insert) {
@@ -42,6 +44,6 @@ else{
   }
 }
 
-header('Location:index.php');
+header('Location:../../index.php');
 
 ?>

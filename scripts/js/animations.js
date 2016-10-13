@@ -149,3 +149,9 @@ $(document).ready(function(){
     });
 
 });
+$(document).ready(function(){
+    $("#hidden").hide();
+    $("#show").click(function(){
+        $("#hidden").stop(true, true).animate({height: "toggle", opacity: "toggle"}, 500);
+    });
+});

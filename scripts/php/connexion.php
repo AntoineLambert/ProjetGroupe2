@@ -3,10 +3,10 @@
 
 function connexion_bd(){
 
-    $nom_du_serveur ="localhost";
-    $nom_de_la_base ="u991056479_site";
-    $nom_utilisateur ="u991056479_root";
-    $passe ="erwan01250";
+    $nom_du_serveur ="lambertazytoine.mysql.db";
+    $nom_de_la_base ="lambertazytoine";
+    $nom_utilisateur ="lambertazytoine";
+    $passe ="8mYifsuc";
 
     $link = mysql_connect ($nom_du_serveur,$nom_utilisateur,$passe) or die ('Erreur : '.mysql_error());
     mysql_select_db($nom_de_la_base, $link) or die ('Erreur :'.mysql_error());
