@@ -56,7 +56,7 @@
 							différents logiciels est prise en compte.<br><br>
 							Grâce à l'abonnement Gold vous n'aurez plus aucuns soucis avec votre matériel informatique!
 		</p>
-		<?php select_or(); ?>
+		<button class="buyButton" id="show1" href='#'>Se Connecter</button>
 	</div>
 
 <!--Div Abonnement Silver-->
@@ -68,7 +68,7 @@
 							différents logiciels est prise en compte.<br><br>
 							Grâce à l'abonnement Gold vous n'aurez plus aucuns soucis avec votre matériel informatique!
 		</p>
-		<?php select_argent(); ?>
+		<button class="buyButton" id="show1" href='#'>Se Connecter</button>
 	</div>
 
 <!--Div Abonnement Bronze-->
@@ -80,7 +80,7 @@
 							différents logiciels est prise en compte.<br><br>
 							Grâce à l'abonnement Gold vous n'aurez plus aucuns soucis avec votre matériel informatique!
 		</p>
-		<?php select_bronze(); ?>
+		<button class="buyButton" id="show1" href='#'>Se Connecter</button>
 	</div>
 
 <!--Menu Flottant-->

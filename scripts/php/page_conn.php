@@ -33,12 +33,6 @@ include("select.php"); ?>
 		<h3>Bienvenue sur YoloZazou, l'entreprise qui vous facilite la vie.<br> Fini les galères avec l'informatique, nous gérons tout pour vous!</h3>
 	</div>
 
-<div class="container">
-	<h1>Authentification</h1>
-
-	<a href="../../index.php?dec=close">deconnexion</a>
-</div>
-
 <!--Div Présentation des trois types d'abonnements-->
 	<div class="container">
 		<p class="text_center">Ci dessous vous trouverez les différents types d'abonnements disponible sur YoloZazou et leurs avantages.</p>
@@ -97,6 +91,7 @@ include("select.php"); ?>
 			<li><a href="contact.php">Contactez-nous</a></li>
 			<li><a href="panier.php?id=<?php echo $id_url;?>">Mes commandes</a></li>
 			<li><a href="equipe.php">Notre équipe</a></li>
+			<li><a href="../../index.php?dec=close">Déconnexion</a></li>
 		</ul>
 	</div>
 </div>

@@ -154,4 +154,13 @@ $(document).ready(function(){
     $("#show").click(function(){
         $("#hidden").stop(true, true).animate({height: "toggle", opacity: "toggle"}, 500);
     });
+    $("#show1").click(function(){
+        $("#hidden").stop(true, true).animate({height: "toggle", opacity: "toggle"}, 500);
+    });
+    $("#show2").click(function(){
+        $("#hidden").stop(true, true).animate({height: "toggle", opacity: "toggle"}, 500);
+    });
+    $("#show3").click(function(){
+        $("#hidden").stop(true, true).animate({height: "toggle", opacity: "toggle"}, 500);
+    });
 });
